@@ -17,56 +17,110 @@ a:hover {
   top: 0;
   bottom: 0;
   left: 0;
+  margin: auto;
   position: absolute;
-  min-width: 850px;
+  min-width: 1175px;
 }
-.top-container-search-contacts {
+.main-container .top-container {
   left: 0;
   right: 0;
+  top: 0;
+  bottom: 0;
+  position: relative;
+  background: #252B2B;
+  height: 147px;
+  padding: 0 0 0 116px;
+}
+.main-container .top-container-search-contacts {
   height: 40px;
-  padding: 0 88px 0 116px;
+  width: 1060px;
+  position: relative;
   background: #252B2B;
   color: #5c676d;
+  border-bottom: 1px solid #5c676d;
 }
-.top-container-search-contacts i {
+.main-container .top-container-search-contacts i {
   padding: 13px;
 }
-.one-login {
+.main-container .one-login {
   border: none;
 }
-.left-email {
+.main-container .left-email {
   float: left;
   font-size: 12px;
+  color: #9ea4a4;
 }
-.right-top-container-search-contacts-right {
+.main-container .right-top-container-search-contacts-right {
   float: right;
   font-size: 13px;
+  color: #959ca2;
 }
-.top {
-  padding: 0;
-  margin: 0;
-  top: 0;
-  position: relative;
-  width: 1077px;
-  left: 0;
-  right: 0;
-  height: 1px;
-  background: red;
-  border: none;
-}
-.right-top-container-search-contacts-right i {
+.main-container .right-top-container-search-contacts-right i {
   border-right: 1px solid silver;
-  padding-right: 15px;
 }
-.registration {
-  padding: 10px 14px 10px 0;
+.main-container .registration {
+  padding: 0 4Px 0 20px;
+  color: #90989a;
 }
-.banner-and-menu {
-  top: 0;
+.main-container .banner {
+  position: relative;
+  float: left;
+}
+.main-container .banner img {
+  padding-left: 15px;
+  max-height: 100px;
+  max-width: 130px;
+}
+.main-container .main-menu {
+  margin: 62px 0 0 17.9%;
+  float: left;
+  list-style: none;
+  background: #252B2B;
+  color: #a8a8a0;
+  text-align: center;
+  position: relative;
+  line-height: 20px;
+  bottom: 0;
+}
+.main-container .main-menu ul {
+  list-style: none;
+}
+.main-container .main-menu ul li {
+  width: 66px;
+  padding: 12px 6px 10px 3px;
+  float: left;
+  cursor: pointer;
+  position: relative;
+}
+.main-container .main-menu ul li:hover {
+  background: #ec8a4d;
+}
+.main-container .main-menu ul li:nth-child(8) {
+  width: 93px;
+}
+.main-container .contact-number {
+  margin: 62px 0;
+  float: left;
+  height: 45px;
+  background: #4dc7ec;
+}
+.main-container .contact-number i {
+  font-size: 1.6em;
+  color: #e2f8ff;
+  float: left;
+  background: #35b3d9;
+  padding: 11px 12px;
+}
+.main-container .contact-number p {
+  font-size: 1.5em;
+  color: white;
+  float: left;
+  padding: 8px 85px 8px 8px;
+}
+.main-container .main-container {
+  top: 144px;
   left: 0;
   right: 0;
-  background: #252B2B;
-  color: #5c676d;
-  padding: 0 88px 0 116px;
-  height: 40px;
+  bottom: 0;
+  background-image: url(../img/main-body/1.png);
 }
